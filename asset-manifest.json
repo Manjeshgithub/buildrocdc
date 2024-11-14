@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/buildrocdc/static/css/main.b82b7dd3.css",
+    "main.js": "/buildrocdc/static/js/main.2b19567e.js",
+    "index.html": "/buildrocdc/index.html",
+    "main.b82b7dd3.css.map": "/buildrocdc/static/css/main.b82b7dd3.css.map",
+    "main.2b19567e.js.map": "/buildrocdc/static/js/main.2b19567e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b82b7dd3.css",
+    "static/js/main.2b19567e.js"
+  ]
+}
