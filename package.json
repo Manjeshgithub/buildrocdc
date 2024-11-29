@@ -2,6 +2,7 @@
   "name": "buildrocdc",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Manjeshgithub.github.io/buildrocdcbluetheme",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
