@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/buildrocdcbluetheme/static/css/main.c301f556.css",
-    "main.js": "/buildrocdcbluetheme/static/js/main.66385269.js",
-    "index.html": "/buildrocdcbluetheme/index.html",
-    "main.c301f556.css.map": "/buildrocdcbluetheme/static/css/main.c301f556.css.map",
-    "main.66385269.js.map": "/buildrocdcbluetheme/static/js/main.66385269.js.map"
+    "main.css": "/buildrocdc/static/css/main.c301f556.css",
+    "main.js": "/buildrocdc/static/js/main.8531ac54.js",
+    "index.html": "/buildrocdc/index.html",
+    "main.c301f556.css.map": "/buildrocdc/static/css/main.c301f556.css.map",
+    "main.8531ac54.js.map": "/buildrocdc/static/js/main.8531ac54.js.map"
   },
   "entrypoints": [
     "static/css/main.c301f556.css",
-    "static/js/main.66385269.js"
+    "static/js/main.8531ac54.js"
   ]
 }
