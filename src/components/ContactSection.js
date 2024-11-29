@@ -5,7 +5,7 @@ function ContactSection() {
     <section id="contact" className="p-8 bg-white text-center">
       <h2 className="text-3xl font-heading font-bold text-primary mb-4">Contact Us</h2>
       <p className="text-lg max-w-xl mx-auto mb-6">
-        For inquiries and quotes, please fill out the form below or reach us at (123) 456-7890.
+        For inquiries and quotes, please fill out the form below or reach us at +91-96068 96388 / +91-9738469945.
       </p>
       <form className="max-w-md mx-auto space-y-4">
         <input

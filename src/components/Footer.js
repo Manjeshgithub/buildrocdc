@@ -15,9 +15,9 @@ function Footer() {
         {/* Contact Information */}
         <div>
           <h4 className="text-lg font-heading font-bold mb-4">Contact Us</h4>
-          <p>Phone: (123) 456-7890</p>
-          <p>Email: contact@construction.com</p>
-          <p>Address: 123 Construction Ave, City, Country</p>
+          <p>Phone: 96068 96388 / 9738469945</p>
+          <p>Email: enquiry@buildrocdc.com</p>
+          <p>Address: #132/3, 3rd Floor, 14th Block, Nagarbhavi 2nd Stage, Bengaluru karnataka 560072.</p>
         </div>
         
         {/* Quick Links */}
@@ -27,6 +27,7 @@ function Footer() {
             <li className="cursor-pointer hover:text-secondary" onClick={() => scrollToSection('about')}>About</li>
             <li className="cursor-pointer hover:text-secondary" onClick={() => scrollToSection('services')}>Services</li>
             <li className="cursor-pointer hover:text-secondary" onClick={() => scrollToSection('project-gallery')}>Projects</li>
+            <li className="cursor-pointer hover:text-secondary" onClick={() => scrollToSection('packages')}>Packages</li>
             <li className="cursor-pointer hover:text-secondary" onClick={() => scrollToSection('contact')}>Contact</li>
           </ul>
         </div>

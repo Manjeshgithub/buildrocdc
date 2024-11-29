@@ -1,20 +1,21 @@
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    './src/**/*.{js,jsx,ts,tsx}', // Include all JS, JSX, TS, and TSX files in the `src` folder
+    './public/index.html',        // Include the main HTML file
   ],
   theme: {
     extend: {
       colors: {
-        primary: '#CC5500', // Burnt Orange
-        secondary: '#FFD700', // Golden Yellow
-        background: '#FFFAF0', // Off-White Background
-        text: '#5A3E36', // Dark Brown Text
+        primary: '#00154F', // Dark Blue
+        secondary: '#87CEFA', // Light Blue
+        background: '#FFFFFF', // White
+        text: '#00154F', // Dark Blue for text
       },
-    },
-    fontFamily: {
-      sans: ['Inter', 'sans-serif'],
-      heading: ['Poppins', 'sans-serif'],
+      fontFamily: {
+        heading: ['Poppins', 'sans-serif'],
+        body: ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [],
-}
+};

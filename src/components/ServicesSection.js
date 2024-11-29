@@ -4,6 +4,9 @@ const services = [
   { name: 'Residential Construction', description: 'We build quality homes tailored to your needs.' },
   { name: 'Commercial Buildings', description: 'High-rise buildings and offices with modern designs.' },
   { name: 'Renovations', description: 'Transform and update existing spaces efficiently.' },
+  { name: 'Turnkey Projects', description: 'Complete end-to-end construction solutions for your projects.' },
+  { name: 'Architectural Designing', description: 'Creative and functional designs for residential and commercial projects.' },
+  { name: 'Structural Designing', description: 'Detailed and robust structural designs for lasting durability.' },
 ];
 
 function ServicesSection() {

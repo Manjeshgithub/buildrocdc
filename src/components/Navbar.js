@@ -33,13 +33,15 @@ function Navbar() {
       <div className="container mx-auto p-4 flex items-center justify-between">
         
         {/* Logo/Title */}
-        <div onClick={() => scrollToSection('hero')} className="cursor-pointer">
+        <div className="flex items-center">
           <img
-            src={`${process.env.PUBLIC_URL}/images/BUILDROC3.png`} // Update path as needed
-            alt="BuildRoc Company Logo"
-            className="h-10 w-auto" // Adjust height/width as needed
+            src={`${process.env.PUBLIC_URL}/images/Company_Logo.jpeg`}
+            alt="Company Logo"
+            className="h-16 w-auto" // Adjust height for prominence
           />
+          <h1 className="ml-4 text-2xl font-heading text-white">BUILDROC</h1>
         </div>
+
 
         {/* Hamburger Icon for Mobile */}
         <div className="md:hidden">
@@ -102,6 +104,9 @@ function Navbar() {
           </li>
           <li onClick={() => scrollToSection('project-gallery')} className="hover:text-secondary text-white cursor-pointer px-4 py-2 md:px-0">
             Projects
+          </li>
+          <li onClick={() => scrollToSection('packages')} className="hover:text-secondary text-white cursor-pointer px-4 py-2 md:px-0">
+            Packages
           </li>
           <li onClick={() => scrollToSection('testimonials')} className="hover:text-secondary text-white cursor-pointer px-4 py-2 md:px-0">
             Testimonials

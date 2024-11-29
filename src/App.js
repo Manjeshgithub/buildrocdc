@@ -10,6 +10,7 @@ import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import StickyContactBar from './components/StickyContactBar';
 import ScrollToTop from './components/ScrollToTop';
+import Packages from './components/Packages';
 import './index.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <HeroSection />
       <AboutSection />
       <ServicesSection />
+      <Packages/>
       <ProjectGallery />
       <TestimonialsSection />
       <TeamSection />
